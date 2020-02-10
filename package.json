@@ -1,0 +1,13 @@
+{
+  "name": "9nki",
+  "version": "1.0.0",
+  "homepage": "https://wearethefuture-org.github.io/Social.io/",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

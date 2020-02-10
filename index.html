@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main-mobile.min.css">
+    <script src="https://kit.fontawesome.com/6c931a9bea.js" crossorigin="anonymous"></script>
+    <title>Social Network</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><i class="fas fa-compass"></i> Logo</div>
+        <button class="myHanburger myHamburgerLine" id="menuBtn" onclick="menuToggle()">
+            <span>Menu </span>
+        </button>
+        <div class="menuWrap" id='menuWrap'>
+            <form action="#" class="serchForm">
+                <input type="text" placeholder="search">
+            </form>
+            <nav class=mainMenu>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Login/Logout</a></li>
+                    <li><a href="#">Create</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" style="margin-top: 0px;padding-top: 60px;padding-bottom: 64px;">
+        <div class="row" style="padding: 20px;">
+            <div class="col-md-2 left-bar">
+                <div class="user">
+                    <div class="img-wrap">
+                        <img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-1/cp0/p24x24/62042157_167733377582444_7230480234821189632_o.jpg?_nc_cat=104&_nc_ohc=7cowt30RJQYAX_vR3mf&_nc_ht=scontent-amt2-1.xx&oh=3d3c6e5366dd75ebd895570fcb3e0ff4&oe=5EC2F19A" alt="">
+                    </div>
+
+                    <div class="info">
+                        Ihor Zhariy
+                    </div>
+                </div>
+
+                <ul class="nav-menu">
+                    <li>
+                        <span><i class="fas fa-home"></i></span>
+                        <span>My page</span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-newspaper"></i></span>
+                        <span>News</span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-envelope-open-text"></i></span>
+                        <span>Messages</span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-user-friends"></i></span>
+                        <span>Friends</span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-camera"></i></span>
+                        <span>Photos</span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-users"></i></span>
+                        <span>Communities</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-7 middle">
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="info">
+                            <img src="img/smile1.jpg">
+                        </div>
+                    </div>
+
+                    <div class="face face2">
+                        <div class="info">
+                            <h3>Post Title</h3>
+                            <div class="actions">
+                                <a href=""><i class="fas fa-heart"></i> like</a>
+                                <a href=""><i class="fas fa-comments"></i> comments</a>
+                                <a href=""><i class="fas fa-share"></i> share</a>
+                                <a href=""><i class="fas fa-smile"></i> smile</a>
+                            </div>
+                            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, delectus laborum ratione nisi modi praesentium eum molestiae, cumque obcaecati, fugit atque quia hic magni officiis! Pariatur obcaecati beatae ipsum asperiores!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="info">
+                            <img src="img/smile2.jpg">
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="info">
+                            <h3>Post Title</h3>
+                            <div class="actions">
+                                <a href=""><i class="fas fa-heart"></i> like</a>
+                                <a href=""><i class="fas fa-comments"></i> comments</a>
+                                <a href=""><i class="fas fa-share"></i> share</a>
+                                <a href=""><i class="fas fa-smile"></i> smile</a>
+                            </div>
+                            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, delectus laborum ratione nisi modi praesentium eum molestiae, cumque obcaecati, fugit atque quia hic magni officiis! Pariatur obcaecati beatae ipsum asperiores!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 right-bar">
+                <div class="menu">
+                    <a href="" class="active">
+                        <span>News</span>
+                    </a>
+
+                    <div class="submenu">
+                        <a href="">
+                            <span>Photos</span>
+                        </a>
+                    </div>
+
+                    <a href="">
+                        <span>Recommendations</span>
+                    </a>
+
+                    <a href="">
+                        <span>Search</span>
+                    </a>
+
+                    <div class="separator"></div>
+
+                    <a href="">
+                        <span>Updates</span>
+                    </a>
+
+                    <a href="">
+                        <span>Comments</span>
+                    </a>
+                </div>
+
+                <div class="filters">
+                    <div class="header">Filters</div>
+
+                    <div class="options">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="storiesCheckbox">
+                            <label class="custom-control-label" for="storiesCheckbox">Stories</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="photosCheckbox">
+                            <label class="custom-control-label" for="photosCheckbox">Photos</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="communitesCheckbox">
+                            <label class="custom-control-label" for="communitesCheckbox">Communities</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="commentsCheckbox">
+                            <label class="custom-control-label" for="commentsCheckbox">Comments</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer> 
+        <div>Developed by We Are The Future.</div>
+    </footer>
+
+    <script src="functions.js"></script>
+    <script src="https://kit.fontawesome.com/2b8ac5af3a.js" crossorigin="anonymous"></script>
+</body>
+</html>
