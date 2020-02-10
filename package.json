@@ -1,7 +1,7 @@
 {
   "name": "9nki",
   "version": "1.0.0",
-  "homepage": "https://wearethefuture-org.github.io/Social.io/",
+  "homepage": "https://wearethefuture-org.github.io/Social.io/social",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
